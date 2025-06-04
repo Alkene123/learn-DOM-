@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movies X</title>
+</head>
+
+<body>
+    <div class="containers">
+        <p>kjfjff</p>
+        <p class="second">dhhhhhhj</p>
+        <P>djfjjjfj</P>
+
+    </div>
+    <ul id="menu">
+        <li>name</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+    <input type="text" id="att" placeholder="att" style="background-color: aquamarine;font-size: 60vh;">
+
+    <button id="btn" type="button" onclick="console.log(event.type)">click here </button>
+
+    <script>
+        //a dom is simply an api that allows you to mainuplate a html documents using some functions 
+        // that control the
+        //it is all a treee of nodes
+        //getelement by id
+        // let msg = document.getElementById("message")
+        // console.log(msg)
+        //getelementbyname method
+
+
+        //let name = document.getElementsByName("jane");
+        //console.log(name);
+
+        //getelementbytagname ,,,
+
+        //let tag = document.getElementsByTagName("h1");
+        //console.log(tag)
+        //getelementbyclassname method
+
+        //let op = document.getElementsByClassName("ken");
+        //console.log(op);
+        //if it the use of divs then create for the div first of all then also for theelements inside them
+
+        //     let cont = document.getElementsByClassName("containers");
+        //     let ken = document.getElementsByClassName("ken");
+        //     console.log(ken);
+        //     //queryselector:is used to select the first element of a css element
+        //     let msg = document.querySelector(".ken");
+        //     //for the whole div use "div" with queryselectorAll
+        //     //or for the whole h1 tags in your code use (h1)
+        //     //for two at a time use(h1,div)
+
+        //     let tan = document.querySelector(".tanzan");
+        //     console.log(tan.parentNode);
+
+        // let parent = document.querySelector(".containers");
+        // console.log(parent.childNodes);
+
+        // let parent = document.querySelector(
+        //     ".containers");
+        // // console.log(parent.firstElementchild);
+        // let second = document.querySelector(".second");
+        // // console.log(second.previousElementSibling);
+
+
+        // //createElement()
+        // let div = document.createElement("div");
+        // div.innerHTML = "<p> welcome </p>"
+        //     //to import the newly created div to the webpage use
+        // document.body.appendChild(div);
+        // //if u want to add id or classname
+        // div.className = "tittle"
+        // console.log(div);
+
+        //appendchild()
+        //it is used to add the an element a an existing one a 
+
+        // let menu = document.getElementById("menu");
+        // let list = document.createElement("li");
+        // list.innerHTML = "project";
+        // menu.appendChild(list);
+
+        //text content displays it contenet while innerhtml displayts only visible content
+        // let menu = document.getElementById("menu");
+        // console.log(menu.textContent);
+        //innerHTML
+        //is used to add a an html text to a page 
+        // console.log(menu.innerHTML = "<h1>helloM</h1>"); //while text content can't applied the h1 taga
+
+
+        //attributes
+        // let att = document.getElementById("att");
+        // console.log(att.attributes);
+
+        // //get attributes
+        // console.log(att.getAttribute("type"));
+        // //set attributes
+        // console.log(att.setAttribute("class", "poo"));
+        // //has attribute
+        // console.log(att.hasAttribute("class"));
+        // // it is a boolean type is output fals e becoz it has no class attribut name
+
+        // //remove attribtes
+        // console.log(att.removeAttribute("placeholder"))
+
+
+        //manipulate style
+
+        // let time = document.getElementById("att");
+        // console.log(time.style); //it is used to add multiple csss proprties in the inline css
+        // time.style.padding = "20px"
+        // dim = time.style.cssText = "width:300px" // using this willm overide the others but to add it us th +=
+        // dim = time.style.cssText += "width:300px"
+
+        //getcomputed style
+        //it is used to get the css 
+
+
+
+
+
+        //event handler
+        //onclick can be used in  it in your html codes 
+        // eg <button id="btn" type="buttonm" onclick="console.log(id)"
+        //it outputs the id or when five to a function eg onclick="myMessage()"
+
+        let btn = document.getElementById("btn");
+    </script>
+
+
+</body>
+
+</html>
